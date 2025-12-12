@@ -75,7 +75,7 @@ app.use(morgan("dev"));
 app.use(express.json());
 
 app.post("/api/auth/authenticate", (req, res) => {
-  if (req.body.userName == "user" && req.body.password == "user") {
+  if (req.body.userName == "user" && req.body.password == "user" || req.body.userName == "yaser" && req.body.password == "yaser") {
     res.json({
       authentication:
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMiIsImdpdmVuX25hbWUiOiJNYXplbiIsImZhbWlseV9uYW1lIjoiU2FtaSIsInVzZXJUeXBlIjoiVXNlciIsIm5iZiI6MTczMjExNTQyMCwiZXhwIjoxNzMyMTE5MDIwLCJpc3MiOiJodHRwczovL2FwcC1ob3RlbC1yZXNlcnZhdGlvbi13ZWJhcGktdWFlLWRldi0wMDEuYXp1cmV3ZWJzaXRlcy5uZXQifQ.SosxseAWXFuoNqSkeeurjet6FiqEX-4Mheo4o1DbCYc",
@@ -92,7 +92,7 @@ app.post("/api/auth/authenticate", (req, res) => {
   }
 });
 
-app.get("/api/home/users/2/recent-hotels", (req, res) => {
+app.get("/api/home/users/1/recent-hotels", (req, res) => {
   res.json(getJsonData("recentHotels.json"));
 });
 
@@ -263,6 +263,11 @@ app.post("/api/rooms", (req, res) => {
   });
   res.json(getJsonData("rooms.json"));
 });
+app.get('/swagger.json', (req, res) => {
+  res.setHeader('Content-Type', 'application/json');
+  res.send(swaggerSpec);
+});
+
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
