@@ -147,7 +147,7 @@ app.get("/api/hotels/:id/reviews", (req, res) => {
 });
 
 app.post("/api/bookings", (req, res) => {
-  res.json(getJsonData("reviews.json"));
+  res.json(req.body);
 });
 
 app.get("/api/bookings/:id", (req, res) => {
@@ -267,7 +267,9 @@ app.get('/swagger.json', (req, res) => {
   res.setHeader('Content-Type', 'application/json');
   res.send(swaggerSpec);
 });
-
+app.get("/api/rooms", (req, res) => {
+  res.json(getJsonData("rooms.json"));
+});
 
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
