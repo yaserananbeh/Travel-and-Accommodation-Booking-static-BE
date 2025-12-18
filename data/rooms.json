@@ -2,7 +2,7 @@
   {
     "roomId": 201,
     "roomNumber": 101,
-    "roomPhotoUrl": "https://example.com/room1.jpg",
+    "roomPhotoUrl": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1080&auto=format&fit=crop",
     "roomType": "Deluxe Suite",
     "capacityOfAdults": 2,
     "capacityOfChildren": 2,
@@ -18,13 +18,13 @@
         "description": "Individually controlled air conditioning"
       }
     ],
-    "price": 250.0,
+    "price": 250,
     "availability": true
   },
   {
     "roomId": 202,
     "roomNumber": 102,
-    "roomPhotoUrl": "https://example.com/room2.jpg",
+    "roomPhotoUrl": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "roomType": "Standard Room",
     "capacityOfAdults": 2,
     "capacityOfChildren": 1,
@@ -35,13 +35,13 @@
         "description": "Includes international channels"
       }
     ],
-    "price": 150.0,
+    "price": 150,
     "availability": true
   },
   {
     "roomId": 203,
     "roomNumber": 103,
-    "roomPhotoUrl": "https://example.com/room3.jpg",
+    "roomPhotoUrl": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?q=80&w=1080&auto=format&fit=crop",
     "roomType": "Executive Suite",
     "capacityOfAdults": 3,
     "capacityOfChildren": 2,
@@ -57,13 +57,13 @@
         "description": "Private balcony with sea view"
       }
     ],
-    "price": 350.0,
+    "price": 350,
     "availability": false
   },
   {
     "roomId": 204,
     "roomNumber": 104,
-    "roomPhotoUrl": "https://example.com/room4.jpg",
+    "roomPhotoUrl": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?q=80&w=1080&auto=format&fit=crop",
     "roomType": "Family Room",
     "capacityOfAdults": 4,
     "capacityOfChildren": 3,
@@ -74,13 +74,13 @@
         "description": "Includes a microwave and fridge"
       }
     ],
-    "price": 400.0,
+    "price": 400,
     "availability": true
   },
   {
     "roomId": 205,
     "roomNumber": 105,
-    "roomPhotoUrl": "https://example.com/room5.jpg",
+    "roomPhotoUrl": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?q=80&w=1080&auto=format&fit=crop",
     "roomType": "Luxury Suite",
     "capacityOfAdults": 2,
     "capacityOfChildren": 1,
@@ -96,13 +96,13 @@
         "description": "Netflix and streaming services included"
       }
     ],
-    "price": 500.0,
+    "price": 500,
     "availability": true
   },
   {
     "roomId": 206,
     "roomNumber": 106,
-    "roomPhotoUrl": "https://example.com/room6.jpg",
+    "roomPhotoUrl": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?q=80&w=1080&auto=format&fit=crop",
     "roomType": "Presidential Suite",
     "capacityOfAdults": 5,
     "capacityOfChildren": 3,
@@ -113,13 +113,13 @@
         "description": "Infinity pool with ocean view"
       }
     ],
-    "price": 1000.0,
+    "price": 1000,
     "availability": false
   },
   {
     "roomId": 207,
     "roomNumber": 107,
-    "roomPhotoUrl": "https://example.com/room7.jpg",
+    "roomPhotoUrl": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=1080&auto=format&fit=crop",
     "roomType": "Standard Room",
     "capacityOfAdults": 2,
     "capacityOfChildren": 0,
@@ -130,13 +130,13 @@
         "description": "Complimentary coffee and tea"
       }
     ],
-    "price": 120.0,
+    "price": 120,
     "availability": true
   },
   {
     "roomId": 208,
     "roomNumber": 108,
-    "roomPhotoUrl": "https://example.com/room8.jpg",
+    "roomPhotoUrl": "https://images.unsplash.com/photo-1596394516093-501ba68a0ba6?q=80&w=1080&auto=format&fit=crop",
     "roomType": "Deluxe Room",
     "capacityOfAdults": 3,
     "capacityOfChildren": 1,
@@ -147,13 +147,13 @@
         "description": "Round-the-clock dining services"
       }
     ],
-    "price": 220.0,
+    "price": 220,
     "availability": false
   },
   {
     "roomId": 209,
     "roomNumber": 109,
-    "roomPhotoUrl": "https://example.com/room9.jpg",
+    "roomPhotoUrl": "https://images.unsplash.com/photo-1549638441-b787d2e11f14?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "roomType": "Twin Room",
     "capacityOfAdults": 2,
     "capacityOfChildren": 1,
@@ -164,13 +164,13 @@
         "description": "Same-day laundry and dry cleaning"
       }
     ],
-    "price": 180.0,
+    "price": 180,
     "availability": true
   },
   {
     "roomId": 210,
     "roomNumber": 110,
-    "roomPhotoUrl": "https://example.com/room10.jpg",
+    "roomPhotoUrl": "https://images.unsplash.com/photo-1667125095636-dce94dcbdd96?q=80&w=1104&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "roomType": "Penthouse Suite",
     "capacityOfAdults": 6,
     "capacityOfChildren": 4,
@@ -181,7 +181,7 @@
         "description": "Exclusive private dining experience"
       }
     ],
-    "price": 2000.0,
+    "price": 2000,
     "availability": true
   }
 ]
