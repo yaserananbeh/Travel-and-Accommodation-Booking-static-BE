@@ -1,11 +1,11 @@
 [
   {
-    "roomId": 201,
-    "roomNumber": 101,
-    "roomPhotoUrl": "https://images.unsplash.com/photo-1611892440504-42a792e24d32?q=80&w=1080&auto=format&fit=crop",
-    "roomType": "Deluxe Suite",
-    "capacityOfAdults": 2,
-    "capacityOfChildren": 2,
+    "roomId": 211,
+    "roomNumber": "894",
+    "roomPhotoUrl": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "roomType": "Lorem modi nulla par",
+    "capacityOfAdults": 46,
+    "capacityOfChildren": 29,
     "amenities": [
       {
         "id": 1,
@@ -18,8 +18,9 @@
         "description": "Individually controlled air conditioning"
       }
     ],
-    "price": 250,
-    "availability": true
+    "price": 305,
+    "availability": true,
+    "hotelId": 2
   },
   {
     "roomId": 202,

@@ -258,7 +258,7 @@ app.delete("/api/rooms/:id", (req, res) => {
 app.post("/api/rooms", (req, res) => {
   const data = getJsonData("rooms.json");
   writeJsonData("rooms.json", {
-    id: data[data.length - 1].id + 1,
+    roomId: data[data.length - 1].roomId + 1,
     ...req.body,
   });
   res.json(getJsonData("rooms.json"));
